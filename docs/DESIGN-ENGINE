@@ -1,0 +1,354 @@
+# Flow Studio – Universal Design Intelligence Engine
+Version: 1.0  
+Last Updated: 2025-11-12  
+Maintained by: Flow Studio Team
+
+---
+
+# 🎨 1. Purpose
+
+This document defines the **Design Intelligence Engine** for Flow Studio —  
+a universal design framework that enables AI agents (Arto, Stylist, Builder, Curator, and Maestro) to produce *any visual style, any layout, any brand system* on demand.
+
+This is **not** a style guide.
+
+It is the **meta-design model** — the cognitive framework the agents use to:
+- understand style requests  
+- interpret aesthetic language  
+- generate design systems dynamically  
+- adapt to brands, industries, and emotional contexts  
+- create layouts, components, tokens, HTML/CSS  
+- evaluate and refine visual output  
+- learn from references (URLs, screenshots, MCP browsing)  
+
+This foundation ensures the system can design:
+- premium medical landing pages  
+- luxury lifestyle brands  
+- real-estate investor dashboards  
+- mobile-first SaaS apps  
+- ecommerce product pages  
+- children’s educational interfaces  
+- high-conversion marketing funnels  
+- minimalist corporate websites  
+- ANYTHING the user requests  
+
+without being locked into a fixed palette, typography scale, or style.
+
+---
+
+# 🧠 2. Core Design Principles (Universal)
+
+These are **mental laws**, not stylistic rules.  
+They apply to every design style the system generates.
+
+### 2.1 Clarity  
+Information must be understandable at a glance.
+
+### 2.2 Hierarchy  
+Guide attention with size, spacing, contrast, and position.
+
+### 2.3 Emotional Resonance  
+Aesthetics must match the emotional intention of the brand.
+
+### 2.4 Accessibility  
+Meet WCAG AA minimum, AAA when possible.
+
+### 2.5 Consistency  
+Tokens, spacing, and typography must form a coherent system.
+
+### 2.6 Responsiveness  
+Designs must adapt smoothly across screen sizes.
+
+### 2.7 UX Psychology  
+Use:
+- Fitts’s Law  
+- Hick’s Law  
+- Gestalt principles  
+- Affordances  
+- Cognitive load theory  
+
+### 2.8 Visual Harmony  
+Balance whitespace, rhythm, alignment, proportions.
+
+These principles guide Arto’s and Stylist’s thinking across all styles.
+
+---
+
+# 🎛 3. Multi-Style Intelligence
+
+The system must support ANY aesthetic direction.
+
+### 3.1 Supported styles (non-exhaustive)
+- Premium Medical  
+- Luxury Minimal  
+- Corporate Professional  
+- Scandinavian Minimal  
+- Neon Futurist  
+- Brutalist  
+- Soft Neumorphic  
+- Real Estate Premium  
+- Wellness/Lifestyle  
+- Academic Serious  
+- SaaS Dashboard  
+- Colorful Playful Kids  
+- Dark Mode Variants  
+- High-Contrast “Trading/Finance”  
+- And any custom blend
+
+### 3.2 Style Interpretation  
+Arto must interpret human language describing styles, such as:
+
+- “calm and premium”  
+- “warm and comforting”  
+- “bold and energetic”  
+- “executive luxury”  
+- “minimalist Apple-like”  
+- “trustworthy medical clinic”  
+- “Miami luxury aesthetic”  
+- “clean SaaS dashboard”  
+
+…and translate that into:
+
+- palettes  
+- typography  
+- spacing  
+- components  
+- motion  
+- hierarchy  
+- UI density  
+- visual mood  
+
+### 3.3 Style Fusion  
+Arto can blend styles:  
+“Minimal luxury with a touch of futurism.”  
+“Premium medical but more welcoming.”
+
+---
+
+# 🎨 4. Design Token Generation (Dynamic)
+
+Instead of a fixed palette, the system should generate **tokens** dynamically:
+
+### 4.1 Token Categories
+- Colors  
+- Typography  
+- Radii  
+- Shadows  
+- Spacing  
+- Motion  
+- Borders  
+- Component states  
+
+### 4.2 Output format  
+Tokens should be exportable as:
+
+- JSON  
+- CSS variables  
+- Tailwind config  
+- SCSS maps  
+
+### 4.3 Token Logic  
+Stylist must:
+
+1. Derive palette from brand tone  
+2. Ensure accessibility contrast  
+3. Generate scalable typography  
+4. Set spacing based on density preference  
+5. Create reusable shadow / radius patterns  
+6. Produce motion easing curves  
+7. Adapt tokens for dark/light modes  
+
+---
+
+# 🧩 5. Agent Collaboration Model
+
+## 5.1 Arto – UI/UX Strategist  
+Responsible for:
+- Clarifying user style goals  
+- Defining layout hierarchy  
+- Selecting aesthetic direction  
+- Mapping emotional tone  
+- Proposing multiple style options  
+- Producing wireframes and flow logic  
+- Using MCP browser for reference analysis  
+
+## 5.2 Stylist – Design Polish  
+Responsible for:
+- Turning Arto’s concept into design tokens  
+- Palette creation  
+- Typography pairing  
+- Spatial rhythm  
+- Aesthetic refinement  
+- Visual consistency  
+- Accessibility compliance  
+
+## 5.3 Builder – Components  
+Responsible for:
+- Translating tokens + layout into HTML/CSS  
+- Implementing components cleanly  
+- Ensuring responsiveness  
+- Using semantic markup  
+- Avoiding bloated frameworks  
+- Creating a maintainable structure  
+
+## 5.4 Curator – Evaluation  
+Responsible for:
+- Scoring aesthetic quality  
+- Checking contrast  
+- Checking legibility  
+- Checking emotion-matching  
+- Checking UX clarity  
+- Catching inconsistencies  
+- Suggesting refinements  
+- Using screenshots from Playwright MCP  
+
+## 5.5 Maestro – Orchestrator  
+Responsible for:
+- Running the full multi-agent workflow  
+- Synchronizing Arto → Stylist → Builder → Curator  
+- Triggering refinements  
+- Ensuring output meets user goals  
+- Managing complexity and phases  
+
+---
+
+# 🔍 6. Process Workflow (Flow-Style)
+
+Flow Studio follows this pipeline:
+
+### 6.1 Phase 1 – Clarification  
+Arto asks questions to understand:
+- brand  
+- emotions  
+- audience  
+- goal  
+- aesthetic direction  
+- inspiration  
+- constraints  
+
+### 6.2 Phase 2 – Style Exploration  
+Arto proposes 2–4 style directions.  
+Each includes:
+- palette  
+- typography  
+- density level  
+- sample components  
+- mood description  
+
+### 6.3 Phase 3 – Token System  
+Stylist generates tokens.  
+Curator checks accessibility.  
+Arto refines mood.  
+
+### 6.4 Phase 4 – Layout & Components  
+Builder creates:
+- layout.md  
+- component HTML/CSS  
+- responsive rules  
+
+### 6.5 Phase 5 – Visual QA  
+Curator uses:
+- MCP screenshots  
+- console logs  
+- real browser rendering  
+
+to catch:
+- visual flaws  
+- spacing issues  
+- misaligned components  
+
+### 6.6 Phase 6 – Final Output  
+Maestro consolidates:
+
+- tokens  
+- components  
+- HTML/CSS  
+- screenshots  
+- notes  
+
+into the final deliverables.
+
+---
+
+# 🌍 7. External Knowledge & Tools (MCP)
+
+Agents may use:
+
+### ✔ Playwright MCP  
+- screenshot  
+- console logs  
+- DOM extraction  
+- performance metrics  
+- layout debugging  
+
+### ✔ Perplexity MCP (optional)  
+- gather design references  
+- research UI trends  
+- analyze competitor sites  
+
+### ✔ Figma URL ingestion (future optional)  
+- analyze components  
+- extract palettes  
+- parse hierarchy  
+
+### ✔ Web scraping tools  
+- extract brand colors  
+- extract tone-of-voice  
+- extract logos  
+
+---
+
+# 🧱 8. Output Requirements
+
+Final outputs must include:
+- style direction summary  
+- tokens.json  
+- HTML/CSS components  
+- layout.md  
+- screenshot-based QA  
+- Curator evaluation report  
+
+Designs must be:
+- visually coherent  
+- emotionally aligned  
+- accessible  
+- responsive  
+- elegant  
+- aesthetically expressive  
+- technically implementable  
+
+---
+
+# 🧭 9. Design Modes (Optional)
+
+Arto can operate in:
+
+### 🟥 Strict UX Mode  
+Minimal visual flair, high clarity.
+
+### 🟦 Elegant Mode  
+Refined typography, gentle spacing, premium look.
+
+### 🟩 Bold Creative Mode  
+High saturation, expressive layouts.
+
+### 🟨 Neutral Production Mode  
+Safe defaults, classic web design.
+
+### 🟪 Brand Emulation Mode  
+Mimic referenced brand tone.
+
+---
+
+# 🧠 10. Philosophy
+
+Flow Studio’s Design Engine must:
+
+- Think like a designer  
+- Prototype like an engineer  
+- Evaluate like a critic  
+- Adapt like a strategist  
+- Communicate like a consultant  
+
+It is not a style.  
+It is the **thinking engine behind infinite styles**.
