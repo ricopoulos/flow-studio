@@ -341,11 +341,18 @@ All development should happen on branches following this pattern:
 4. **Accessibility**: Each theme must pass WCAG AAA independently
 
 ### Design System Evolution
-- Started: Single token set for Flow Studio brand
-- Now: 8 complete theme variations, each internally consistent
-- Next: Shared theme system for sub-projects
+- **Phase 1**: Single token set for Flow Studio brand
+- **Phase 2**: 8 complete theme variations, each internally consistent
+- **Phase 3**: ✅ Shared theme system deployed across all sub-projects
+
+### Multi-Theme Infrastructure Learnings
+1. **CSS Variable Mapping**: Use `var(--theme-var, --fallback)` pattern to preserve brand identity
+2. **Auto-Injection**: Theme switcher component auto-injects UI - no manual HTML needed
+3. **Smooth Transitions**: Add transitions to body/sections for polished theme switching
+4. **Path Management**: Relative paths to `/shared/` work for any project depth
+5. **Font Loading**: Include all theme fonts for seamless typography switching
 
 ---
 
 **Last Updated**: 2025-11-15
-**Status**: 8-theme system live at root URL, ready for sub-project expansion
+**Status**: Multi-theme infrastructure COMPLETE - all projects support 8 theme variations
